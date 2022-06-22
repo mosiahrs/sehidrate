@@ -10,54 +10,55 @@
   <title>Ja bebeu água hoje?</title>
 </head>
 <body>
-  
   <header>
-    <div class="title">
-        <div class="logo1">
+    <section class="title">
+        <span class="iconLogo">
           <i class="fa-solid fa-droplet fa-bounce fa-2x"> </i>
-        </div>
-        <div class="logo2">
+        </span>
+        <span class="textoLogo">
           <h1>se hidrate com Gabriel</h1>
-        </div>
-    </div>
+        </span>
+    </section>
   </header>
 
-  <div class="mainpage">
-    <div class="container">
-      <section class="imagess">
-        <img class="avatar" src="assets/bgoff.png" alt="">
-      </section>
+  <main class="mainpage">
+    <section class="container">
+      <figure class="imagess">
+        <img class="avatar" src="assets/bgoff.png" hidden>
+      </figure>
 
       <section class="formulario">
         <h3 id="quest">Já bebeu água hoje<span id="interr">?</span></h3>
         <span>
         <input type="number" placeholder="Quantos Litros bebeu? " name="quantidade" id="quantidade">
         <input type="button" class="btnsub" name="enviar" value="Enviar" onclick="calcular()" ></input></span>
-        <div id="resultado">
- 
+          <p id="resultado">
           <!--texto deve ser inserido pelo JS-->
-        </div>
+          </p>
       </section>
-    </div>
-  
-    <div class="informativo">
-      <section class="texto">
+    </section>
+      <article>
         <h2>Bom dia! Boa tarde! Boa noite!</h2>
-        <p class="text1">Beber água pode ter diversos benefícios para a saúde, uma vez que é essencial para várias funções no corpo. Além de ajudar a manter pele e cabelos saudáveis, ajuda também na regulagem do intestino, diminuindo a prisão de ventre. Manter uma boa ingestão de líquidos trás outros benefícios para o equilíbrio do organismo, que são muito importantes para a manutenção da saúde em geral.</p>
-        <br>
-        <h3>Benefícios</h3>
+        <h3>Alguns Benefícios de beber água</h3>
         <ul>
-         <li>Regular a temperatura corporal;</li>
+          <li>Regular a temperatura corporal;</li>
           <li>Melhorar o funcionamento dos rins;</li>
           <li>Melhorar a circulação sanguínea;</li>
           <li>Diminuir o inchaço;</li>
         </ul>
-        <button class="saiba"><a href="http://encurtador.com.br/uwAVW" target="_blank" rel="noopener noreferrer">Saiba mais</a></button>
-     </section>
-    </div>
-    <p class="footer">Copyright © 2022 Mosiah Rabello - Nenhum direito reservado</p>
-  </div>
-  <script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>
-  <script src="js/script.js"></script>
+      </article>
+
+      <details>
+        <summary>Saiba Mais</summary>
+          <section class="texto"></section>
+            <p class="text1">Beber água pode ter diversos benefícios para a saúde, uma vez que é essencial para várias funções no corpo. <a href="https://drauziovarella.uol.com.br/alimentacao/5-motivos-para-nao-deixar-de-tomar-agua/" target="_blank" rel="noopener noreferrer">Aqui você pode ler um artigo a respeito.</a>Além de ajudar a manter pele e cabelos saudáveis, ajuda também na regulagem do intestino, diminuindo a prisão de ventre. Manter uma boa ingestão de líquidos trás outros benefícios para o equilíbrio do organismo, que são muito importantes para a manutenção da saúde em geral.
+            </p>
+          </section>
+      </details>
+  </main>
+  <footer class="footer">Copyright © 2022 Mosiah Rabello - Nenhum direito reservado</footer>
+  
+<script src="https://kit.fontawesome.com/81d880f28b.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

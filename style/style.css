@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
-
-* {
+* 
+{
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto Flex', sans-serif;
@@ -10,7 +10,8 @@
 
 /* Paleta de cores azul */
 
-:root {
+:root 
+{
   --base-hue: 180;
   --base-sat: 75%;
   --clr-10: hsl(var(--base-hue), var(--base-sat), 10%);
@@ -24,6 +25,15 @@
   --clr-90: hsl(var(--base-hue), var(--base-sat), 90%);
   --clr-95: hsl(var(--base-hue), var(--base-sat), 95%);
 }
+
+ul 
+{
+  list-style-type: "❢ ";
+  
+}
+
+
+/*
 body {
   background-color: hsl(var(--base-hue), var(--base-sat), 95%);
   color: hsl(var(--base-hue), var(--base-sat), 10%);
@@ -132,22 +142,6 @@ button a {
   flex-direction: column;
 }
 
-.saiba {
-  align-self: center;
-  background-color: blueviolet;
-  height: 1.8rem;
-  border-radius: 5px;
-  cursor: pointer;
-  border: 1px solid transparent;
-  margin: 5px;
-  width: 80px;
-  opacity: 0.9;
-}
-
-.saiba:hover {
-  background-color: hsl(var(--base-hue), var(--base-sat), 50%);
-  color: hsl(var(--base-hue), var(--base-sat), 90%);
-}
 
 .footer {
   color: hsl(var(--base-hue), var(--base-sat), 90%);
@@ -157,4 +151,3 @@ button a {
   bottom: 0;
   text-align: center;
 }
-
